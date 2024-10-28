@@ -3046,12 +3046,12 @@ input, select, textarea {
 
 	header p {
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.7em;
-		font-weight: 400;
+		font-size: 0.75em;
+		font-weight: 600;
 		letter-spacing: 0.25em;
 		line-height: 2.5;
 		margin-top: -1em;
-		text-transform: uppercase;
+		color: #a5adcb;
 	}
 
 	.title p {
@@ -3662,6 +3662,7 @@ input, select, textarea {
 						height: auto;
 						margin-bottom: 8px;
 						box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+						border-radius: 5px;
 				}
 
 				#wide-table img {
@@ -3690,8 +3691,20 @@ input, select, textarea {
 		box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
-.header-container h2 {
-
+#header-sect h2 {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0px;
 }
 
+#header-sect-subtext {
+	color: #a5adcb;
+}
 
+.contents {
+	border: solid 1px rgba(184, 192, 224, 0.11);
+	border-radius: 5px;
+	width: 50%;
+	padding: 20px 20px 0px 20px;
+	margin-bottom: 2em;
+}
